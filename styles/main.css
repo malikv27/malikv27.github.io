@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Sriracha&display=swap');
+
+
 :root{
     --vertical-space: 2rem;
     --horizontal-space: 3rem;
@@ -6,6 +9,12 @@
 body{
     font-size: 18px;
     line-height: 1.5;
+    font-family: "Itim", cursive;
+}
+
+h1, h2, h3 {
+    line-height: 1.2;
+    font-family: "Sriracha", cursive;
 }
 
 body#about img {height: 15em;}
