@@ -6,7 +6,10 @@
         <title>Veer's Personal Portfolio</title>
         <link rel="stylesheet" href="styles/normalize.css" />
         <link rel="stylesheet" href="styles/main.css" />
-        <link rel="icon" href="images/favicon.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
     </head>
     <body id="resume">
         <header>
@@ -14,14 +17,15 @@
         </header>
         <nav>
             <ul>
-                <li><a href="index.html">About</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="resume.html">resume</a></li>
+                <li onclick="aboutAlert()"><a href="index.html">About</a></li>
+                <li onclick="portfolioAlert()"><a href="portfolio.html">Portfolio</a></li>
+                <li onclick="resumeAlert()"><a href="resume.html">Resume</a></li>
             </ul>
         </nav>
         <main>
             <h1>Resume:</h1>
             <ul>
+                <h2>Education:</h2>
                 <li>B.S. Science Computer Science</li>
                 <li>Rose Hulman Institute of Technology</li>
                 <h3>Related Courses:</h3>
